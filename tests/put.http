@@ -1,0 +1,9 @@
+PUT https://cbzw7frd71.execute-api.eu-west-2.amazonaws.com/ HTTP/1.1
+content-type: application/json
+
+{
+    "from": "Pawel.Madziar@madziar.com",
+    "to": "Pawel.Madziar@domesticandgeneral.com",
+    "subject": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "body": "<h1>Test</h1>"
+}
