@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MailTemplateLambda/1.0.0": {
         "dependencies": {
+          "AWSSDK.SimpleEmail": "3.7.300.40",
           "Amazon.Lambda.APIGatewayEvents": "2.7.0",
           "Amazon.Lambda.Annotations": "1.0.0",
           "Amazon.Lambda.Core": "2.2.0",
@@ -54,6 +55,25 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "AWSSDK.Core/3.7.301.10": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.301.10"
+          }
+        }
+      },
+      "AWSSDK.SimpleEmail/3.7.300.40": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.301.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleEmail.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.300.40"
+          }
+        }
       }
     }
   },
@@ -90,6 +110,20 @@
       "sha512": "sha512-VwHKBvAD3ivAoAYjRNy/LsZaoFayKAWhVYOTYur5UQZzxYCC6itTwBH5skt3l8FCIjOAGnZljHNnayu17Y53jw==",
       "path": "amazon.lambda.serialization.systemtextjson/2.4.0",
       "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.301.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mj/L7JwP9YBYioO82u57K20F7u18w2NAjCJx/KHSE52bzN0k07YW9tVIzQHUdKYzQEWkxvgqu+vghDp92wEkFA==",
+      "path": "awssdk.core/3.7.301.10",
+      "hashPath": "awssdk.core.3.7.301.10.nupkg.sha512"
+    },
+    "AWSSDK.SimpleEmail/3.7.300.40": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8oR/3x1Bu0pF4omEembvM0aW6zn5Hu6WVm3uCzfDt8CqCQ6ADLkYej1HCxDBqX86m6eh44Zozc+KnKBQEHS9Iw==",
+      "path": "awssdk.simpleemail/3.7.300.40",
+      "hashPath": "awssdk.simpleemail.3.7.300.40.nupkg.sha512"
     }
   }
 }

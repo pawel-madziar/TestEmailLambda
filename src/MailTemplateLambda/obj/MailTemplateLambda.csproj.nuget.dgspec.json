@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.300.40, )"
+            },
             "Amazon.Lambda.APIGatewayEvents": {
               "target": "Package",
               "version": "[2.7.0, )"
@@ -72,19 +76,11 @@
               "version": "[6.0.26, 6.0.26]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
               "version": "[6.0.26, 6.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[6.0.26, 6.0.26]"
             }
           ],
@@ -97,11 +93,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/home/madziap/.dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

@@ -25,7 +25,7 @@
           "RootPut": {
             "Type": "HttpApi",
             "Properties": {
-              "Path": "{mailSettings}",
+              "Path": "{infox}",
               "Method": "PUT"
             }
           }

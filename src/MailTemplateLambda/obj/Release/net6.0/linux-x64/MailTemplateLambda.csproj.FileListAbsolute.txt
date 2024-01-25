@@ -17,3 +17,6 @@
 /home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/obj/Release/net6.0/linux-x64/MailTemplateLambda.pdb
 /home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/obj/Release/net6.0/linux-x64/MailTemplateLambda.genruntimeconfig.cache
 /home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/obj/Release/net6.0/linux-x64/ref/MailTemplateLambda.dll
+/home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/obj/Release/net6.0/linux-x64/MailTemplateLambda.sourcelink.json
+/home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/bin/Release/net6.0/linux-x64/AWSSDK.Core.dll
+/home/madziap/code/MailTemplateLambda/src/MailTemplateLambda/bin/Release/net6.0/linux-x64/AWSSDK.SimpleEmail.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MailTemplateLambda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+864e0ea817e97db3d113fa6e0bc6c591d88c1de9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MailTemplateLambda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MailTemplateLambda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
