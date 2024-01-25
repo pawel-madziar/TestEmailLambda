@@ -11,6 +11,9 @@ public class MailService : IMailService
     public async Task<bool> SendMail(MailSettings mailSettings, ILambdaLogger logger)
     {
         bool ret = true;
+        // ImageReplacer imageReplacer = new ImageReplacer(mailSettings.body, logger);
+        // string body = await imageReplacer.replaceImages();
+        string body = mailSettings.body;
         using (var client = new AmazonSimpleEmailServiceClient(RegionEndpoint.EUWest2))
         {
             var sendRequest = new SendEmailRequest
@@ -22,7 +25,7 @@ public class MailService : IMailService
                     Subject = new Content(mailSettings.subject),
                     Body = new Body
                     {
-                        Html = new Content { Charset = "UTF-8", Data = mailSettings.body }
+                        Html = new Content { Charset = "UTF-8", Data = body }
                     }
                 }
             };
